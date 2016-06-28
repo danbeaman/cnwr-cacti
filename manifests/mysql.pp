@@ -14,7 +14,7 @@ class cacti::mysql inherits ::cacti{
     password => $::cacti::database_pass,
     host     => $::cacti::database_host,
     grant    => ['ALL'],
-    sql      => '/usr/share/doc/cacti-0.8.8b/cacti.sql',
+    sql      => '/usr/share/doc/cacti-0.8.8h/cacti.sql',
   }
 
 }
